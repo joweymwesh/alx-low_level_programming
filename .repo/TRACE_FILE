@@ -1,0 +1,88 @@
+PID: 2112 START: 1676642103990479104 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, https://github.com/joweymwesh/alx-low_level_programming.git
+
+PID: 2112 START: 1676642104150136832 :git command /home/jowey/alx-low_level_programming/.repo/manifests.git ['git', 'init'] with debug: : export GIT_DIR=/home/jowey/alx-low_level_programming/.repo/manifests.git
+: git init 1>| 2>|
+
+PID: 2112 END: 1676642104225129216 :git command /home/jowey/alx-low_level_programming/.repo/manifests.git ['git', 'init'] with debug: : export GIT_DIR=/home/jowey/alx-low_level_programming/.repo/manifests.git
+: git init 1>| 2>|
+
+PID: 2112 START: 1676642104234109696 :git command /home/jowey/alx-low_level_programming/.repo/manifests.git ['git', 'config', '--file', '/home/jowey/alx-low_level_programming/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/jowey/alx-low_level_programming/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 2112 END: 1676642104262205184 :git command /home/jowey/alx-low_level_programming/.repo/manifests.git ['git', 'config', '--file', '/home/jowey/alx-low_level_programming/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/jowey/alx-low_level_programming/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 2112 START: 1676642104264516352 :git command /home/jowey/alx-low_level_programming/.repo/manifests.git ['git', 'config', '--file', '/home/jowey/.gitconfig', '--includes', '--null', '--list'] with debug: : git config --file /home/jowey/.gitconfig --includes --null --list 1>| 2>|
+
+PID: 2112 END: 1676642104283798528 :git command /home/jowey/alx-low_level_programming/.repo/manifests.git ['git', 'config', '--file', '/home/jowey/.gitconfig', '--includes', '--null', '--list'] with debug: : git config --file /home/jowey/.gitconfig --includes --null --list 1>| 2>|
+
+PID: 2112 START: 1676642104286801920 :git command /home/jowey/alx-low_level_programming/.repo/manifests.git ['git', 'config', '--file', '/home/jowey/alx-low_level_programming/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/jowey/alx-low_level_programming/.repo/manifests.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 2112 END: 1676642104308420096 :git command /home/jowey/alx-low_level_programming/.repo/manifests.git ['git', 'config', '--file', '/home/jowey/alx-low_level_programming/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/jowey/alx-low_level_programming/.repo/manifests.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 2112 START: 1676642104309101056 :git command /home/jowey/alx-low_level_programming/.repo/manifests.git ['git', 'config', '--file', '/home/jowey/alx-low_level_programming/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/jowey/alx-low_level_programming/.repo/manifests.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 2112 END: 1676642104339124224 :git command /home/jowey/alx-low_level_programming/.repo/manifests.git ['git', 'config', '--file', '/home/jowey/alx-low_level_programming/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/jowey/alx-low_level_programming/.repo/manifests.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 2112 START: 1676642104339881984 :git command /home/jowey/alx-low_level_programming/.repo/manifests.git ['git', 'config', '--file', '/home/jowey/alx-low_level_programming/.repo/manifests.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/jowey/alx-low_level_programming/.repo/manifests.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 2112 END: 1676642104375251456 :git command /home/jowey/alx-low_level_programming/.repo/manifests.git ['git', 'config', '--file', '/home/jowey/alx-low_level_programming/.repo/manifests.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/jowey/alx-low_level_programming/.repo/manifests.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 2112 START: 1676642104376105216 :git command /home/jowey/alx-low_level_programming/.repo/manifests.git ['git', 'config', '--file', '/home/jowey/alx-low_level_programming/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://github.com/joweymwesh/alx-low_level_programming.git'] with debug: : git config --file /home/jowey/alx-low_level_programming/.repo/manifests.git/config --includes --replace-all remote.origin.url https://github.com/joweymwesh/alx-low_level_programming.git 1>| 2>|
+
+PID: 2112 END: 1676642104408347904 :git command /home/jowey/alx-low_level_programming/.repo/manifests.git ['git', 'config', '--file', '/home/jowey/alx-low_level_programming/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://github.com/joweymwesh/alx-low_level_programming.git'] with debug: : git config --file /home/jowey/alx-low_level_programming/.repo/manifests.git/config --includes --replace-all remote.origin.url https://github.com/joweymwesh/alx-low_level_programming.git 1>| 2>|
+
+PID: 2112 START: 1676642104410791168 :git command /home/jowey/alx-low_level_programming/.repo/manifests.git ['git', 'config', '--file', '/home/jowey/alx-low_level_programming/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/jowey/alx-low_level_programming/.repo/manifests.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 2112 END: 1676642104442810880 :git command /home/jowey/alx-low_level_programming/.repo/manifests.git ['git', 'config', '--file', '/home/jowey/alx-low_level_programming/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/jowey/alx-low_level_programming/.repo/manifests.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 2112 START: 1676642104443679488 :git command /home/jowey/alx-low_level_programming/.repo/manifests.git ['git', 'ls-remote', '-q', '--symref', '--exit-code', 'origin', 'HEAD'] with debug: : git ls-remote -q --symref --exit-code origin HEAD 1>| 2>|
+
+PID: 2112 END: 1676642109714019840 :git command /home/jowey/alx-low_level_programming/.repo/manifests.git ['git', 'ls-remote', '-q', '--symref', '--exit-code', 'origin', 'HEAD'] with debug: : git ls-remote -q --symref --exit-code origin HEAD 1>| 2>|
+
+PID: 2112 START: 1676642109715096320 :git command /home/jowey/alx-low_level_programming/.repo/manifests.git ['git', 'config', '--file', '/home/jowey/alx-low_level_programming/.repo/manifests.git/config', '--includes', '--replace-all', 'manifest.platform', 'auto'] with debug: : git config --file /home/jowey/alx-low_level_programming/.repo/manifests.git/config --includes --replace-all manifest.platform auto 1>| 2>|
+
+PID: 2112 END: 1676642109742068992 :git command /home/jowey/alx-low_level_programming/.repo/manifests.git ['git', 'config', '--file', '/home/jowey/alx-low_level_programming/.repo/manifests.git/config', '--includes', '--replace-all', 'manifest.platform', 'auto'] with debug: : git config --file /home/jowey/alx-low_level_programming/.repo/manifests.git/config --includes --replace-all manifest.platform auto 1>| 2>|
+
+PID: 2112 START: 1676642109744645888 :git command /home/jowey/alx-low_level_programming/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/main:refs/remotes/origin/main', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_OBJECT_DIRECTORY=/home/jowey/alx-low_level_programming/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/main:refs/remotes/origin/main +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 2112 END: 1676642111903728640 :git command /home/jowey/alx-low_level_programming/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/main:refs/remotes/origin/main', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_OBJECT_DIRECTORY=/home/jowey/alx-low_level_programming/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/main:refs/remotes/origin/main +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 2112 START: 1676642111904652032 :git command /home/jowey/alx-low_level_programming/.repo/manifests.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 2112 END: 1676642111944642560 :git command /home/jowey/alx-low_level_programming/.repo/manifests.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 2112 START: 1676642111947917824 :git command /home/jowey/alx-low_level_programming/.repo/manifests.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/main^0'] with debug: : git rev-parse --verify refs/remotes/origin/main^0 1>| 2>|
+
+PID: 2112 END: 1676642111973574912 :git command /home/jowey/alx-low_level_programming/.repo/manifests.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/main^0'] with debug: : git rev-parse --verify refs/remotes/origin/main^0 1>| 2>|
+
+PID: 2112 START: 1676642111978422016 :git command /home/jowey/alx-low_level_programming/.repo/manifests.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/jowey/alx-low_level_programming/.repo/manifests
+: git read-tree --reset -u -v HEAD
+
+PID: 2112 END: 1676642112060513792 :git command /home/jowey/alx-low_level_programming/.repo/manifests.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/jowey/alx-low_level_programming/.repo/manifests
+: git read-tree --reset -u -v HEAD
+
+PID: 2112 START: 1676642112061087488 :: load refs /home/jowey/alx-low_level_programming/.repo/manifests.git
+
+PID: 2112 END: 1676642112063311104 :: load refs /home/jowey/alx-low_level_programming/.repo/manifests.git
+
+PID: 2112 START: 1676642112064736768 :: scan refs /home/jowey/alx-low_level_programming/.repo/manifests.git
+
+PID: 2112 END: 1676642112065274624 :: scan refs /home/jowey/alx-low_level_programming/.repo/manifests.git
+
+PID: 2112 START: 1676642112066319104 :git command /home/jowey/alx-low_level_programming/.repo/manifests.git ['git', 'update-ref', 'refs/heads/default', '563d6930fa0edab01f8fb9e3883e9ba9b5540198'] with debug: : git update-ref refs/heads/default 563d6930fa0edab01f8fb9e3883e9ba9b5540198 1>| 2>|
+
+PID: 2112 END: 1676642112092457472 :git command /home/jowey/alx-low_level_programming/.repo/manifests.git ['git', 'update-ref', 'refs/heads/default', '563d6930fa0edab01f8fb9e3883e9ba9b5540198'] with debug: : git update-ref refs/heads/default 563d6930fa0edab01f8fb9e3883e9ba9b5540198 1>| 2>|
+
+PID: 2112 START: 1676642112093079296 :git command /home/jowey/alx-low_level_programming/.repo/manifests.git ['git', 'symbolic-ref', 'HEAD', 'refs/heads/default'] with debug: : git symbolic-ref HEAD refs/heads/default 1>| 2>|
+
+PID: 2112 END: 1676642112116504320 :git command /home/jowey/alx-low_level_programming/.repo/manifests.git ['git', 'symbolic-ref', 'HEAD', 'refs/heads/default'] with debug: : git symbolic-ref HEAD refs/heads/default 1>| 2>|
+
+PID: 2112 START: 1676642112118281728 :git command /home/jowey/alx-low_level_programming/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 2112 END: 1676642112134028032 :git command /home/jowey/alx-low_level_programming/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 2112 END: 1676642112134395904 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, https://github.com/joweymwesh/alx-low_level_programming.git
+

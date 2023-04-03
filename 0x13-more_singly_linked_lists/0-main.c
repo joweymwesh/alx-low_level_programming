@@ -5,7 +5,7 @@
 
 /**
  * main - check the code
- * 
+ * print_listint - prints all the elements of a listint_t list
  * Return: Always 0.
  */
 int main(void)

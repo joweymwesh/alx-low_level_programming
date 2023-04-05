@@ -12,10 +12,11 @@ size_t print_listint(const listint_t *h)
 {
 	const listint_t *zara;
 	unsigned int cntr = 0;
+	
 	zara = h;
 	while (zara)
 	{
-		printf("%d\n" , zara->n);
+		printf("%d\n", zara->n);
 		cntr++;
 			zara = zara->next;
 	}

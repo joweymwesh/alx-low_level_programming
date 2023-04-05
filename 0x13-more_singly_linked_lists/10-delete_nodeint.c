@@ -18,7 +18,7 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 	{
 		zora2 = (*head)->next;
 		free(*head);
-		*head = next;
+		*head = zora2;
 		return (1);
 	}
 	zora = *head;
@@ -29,7 +29,7 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 		zora = zora->next;
 	}
 	zora2 = zora->next;
-	zora->zora2 = zora2->zora2;
+	zora->zora = zora2->zora2;
 	free(zora2);
 	return (1);
 }

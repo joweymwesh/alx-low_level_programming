@@ -11,25 +11,25 @@
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
 	unsigned int i;
-	listint_t *zora, *zora2;
+	listint_t *current, *next;
 	if (head == NULL || *head == NULL)
 		return (-1);
 	if (index == 0)
 	{
-		zora2 = (*head)->next;
+		next = (*head)->next;
 		free(*head);
-		*head = zora2;
+		*head = next;
 		return (1);
 	}
-	zora = *head;
+	current = *head;
 	for (i = 0; i < index - 1; i++)
 	{
-		if (zora->next == NULL)
+		if (current->next == NULL)
 			return (-1);
-		zora = zora->next;
+		current = current->next;
 	}
-	zora2 = zora->next;
-	zora->zora = zora2->zora2;
-	free(zora2);
+	next = current->next;
+	current->next = next->next;
+	free(next);
 	return (1);
 }

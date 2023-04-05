@@ -7,12 +7,12 @@
 
 void free_listint(listint_t *head)
 {
-	listint_t *current;
-
-	while (head != NULL)
+	listint_t *jomu, *jomu2;
+	jomu = head;
+	while (jomu != NULL)
 	{
-		current = head;
-		head = head->next;
-		free(current);
+		jomu2 = jomu->next;
+		free(jomu);
+		jomu = jomu2;
 	}
 }

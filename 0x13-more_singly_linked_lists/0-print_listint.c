@@ -15,8 +15,8 @@ size_t print_listint(const listint_t *h)
 	zara = h;
 	while (zara)
 	{
-		printf("%d\n" , tp->n);
-		cntr++
+		printf("%d\n" , zara->n);
+		cntr++;
 			zara = zara->next;
 	}
 	return (cntr);

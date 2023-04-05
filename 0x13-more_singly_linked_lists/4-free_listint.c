@@ -8,7 +8,6 @@
 void free_listint(listint_t *head)
 {
 	listint_t *jomu, *jomu2;
-	
 	jomu = head;
 	while (jomu != NULL)
 	{

@@ -10,12 +10,14 @@
 
 size_t print_listint(const listint_t *h)
 {
-	size_t count = 0;
-	while (h != NULL)
+	const listint_t *zara;
+	unsigned int cntr = 0;
+	zara = h;
+	while (zara)
 	{
-		printf("%d\n", h->n);
-		h = h->next;
+		printf("%d\n" , tp->n);
+		cntr++
+			zara = zara->next;
 	}
-
-	return (count);
+	return (cntr);
 }

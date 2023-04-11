@@ -7,7 +7,7 @@
  * Return: number of bit that are different from each other
  */
 
-unsigned int flip_bits(unsigned long int n, unsigned int m)
+unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
 	unsigned long int j = sizeof(unsigned long int) *8;
 		unsigned int i, nflips = 0;

@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- *get_bit - returns the value of a bit at a given index
+ *get_bit - value of a bit at a given index
  *@n: binary number to evaluate
- *@index: desired index
- *Return: the value of the bit at index index or -1 if an error occured
+ *@index: index
+ *Return: the value 
  */
 
 int get_bit(unsigned long int n, unsigned int index)

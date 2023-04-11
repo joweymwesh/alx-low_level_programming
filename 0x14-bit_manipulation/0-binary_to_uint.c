@@ -9,31 +9,17 @@
 
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int num = 0;
+	unsigned int dec_val = 0;
 	int y;
 
-	if (b == NULL)
-	{
+	if (!b)
 		return (0);
-	}
+	for (y = 0; b[y]; y++)
 
-	while (b[y] != '\0')
 	{
-		if (b[y] != '0' && b[y] != '1')
-		{
+		if (b[y] < '0' || b[y] > '1')
 			return (0);
-		}
-
-		else if (b[y] == '0')
-		{
-			num <<= 1;
-		}
-
-		else if (b[y] == '1')
-		{
-			num = (num << 1) | 1;
-		}
-		y = y + 1;
+		dec_val = 2 * dec_val + (b[y] - '0');
 	}
-	return (num);
+	return (dec_val);
 }

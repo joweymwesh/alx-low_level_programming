@@ -1,9 +1,10 @@
 #include "main.h"
+#include <stddef.h>
 
 /**
  * binaryto_unit - converts a binary number to unsigned int
  * @b - the string containing the binary number
- * Return: the converted number
+ * Return: the converted number 
  */
 
 unsigned int binary_to_uint(const char *b)
@@ -18,7 +19,7 @@ unsigned int binary_to_uint(const char *b)
 
 	while (b[y] != '\0')
 	{
-		if (by[y] != '0' && b[y] != '1')
+		if (b[y] != '0' && b[y] != '1')
 		{
 			return (0);
 		}

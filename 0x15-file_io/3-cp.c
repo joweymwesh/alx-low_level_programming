@@ -5,16 +5,14 @@
 #define BUFSIZE 1024
 
 /**
- * main - Copies the content of a file to another file.
- *
- * @argc: The number of arguments.
- * @argv: The arguments.
- *
- * Return: 0 on success, or an error code on failure.
+ * main - it copies the content of a file to another file
+ * @argc: The number of arguments supplied to the program
+ * @argv: an array of pointers to the arguments
+ * Return: 0 on success, or an error code on failure
  */
 int main(int argc, char *argv[])
 {
-	int fd_from, fd_to, bytes_read, bytes_written;
+	int o_from, o_to, bytes_read, bytes_written;
 	char buffer[BUFSIZE];
 
 	if (argc != 3)
@@ -23,29 +21,29 @@ int main(int argc, char *argv[])
 		exit(97);
 	}
 
-	fd_from = open(argv[1], O_RDONLY);
-	if (fd_from == -1)
+	o_from = open(argv[1], O_RDONLY);
+	if (o_from == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
 		exit(98);
 	}
 
-	fd_to = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC, 0664);
-	if (fd_to == -1)
+	o_to = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC, 0664);
+	if (o_to == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
 		exit(99);
 	}
 
 	do {
-		bytes_read = read(fd_from, buffer, BUFSIZE);
+		bytes_read = read(o_from, buffer, BUFSIZE);
 		if (bytes_read == -1)
 		{
 			dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
 			exit(98);
 		}
 
-		bytes_written = write(fd_to, buffer, bytes_read);
+		bytes_written = write(o_to, buffer, bytes_read);
 		if (bytes_written == -1)
 		{
 			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
@@ -53,15 +51,15 @@ int main(int argc, char *argv[])
 		}
 	} while (bytes_read == BUFSIZE);
 
-	if (close(fd_from) == -1)
+	if (close(o_from) == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fd_from);
+		dprintf(STDERR_FILENO, "Error: Can't close o %d\n", o_from);
 		exit(100);
 	}
 
-	if (close(fd_to) == -1)
+	if (close(o_to) == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fd_to);
+		dprintf(STDERR_FILENO, "Error: Can't close o %d\n", o_to);
 		exit(100);
 	}
 

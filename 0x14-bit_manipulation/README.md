@@ -1,1 +1,1 @@
-Solutions to bit manipulation
+solutions to bit manipulation

@@ -1,10 +1,17 @@
-#include " main.h"
+#include "main.h"
 
 /**
- * int get_bit
- * index - starts at 0
- * Return - -1 if error occurs
+ * get_bit - value of a bit at a given index
+ * @index - starts at 0
+ * @n - binary number to evaluate
+ * Return - the value, -1 if not
  */
 
-int get
-
+int get_bit(unsigned long int n, unsigned int index)
+{
+  if(index >=sizeof(unsigned long int) * 8)
+{
+return(-1);
+}
+return ((n >> index) & 1);
+}

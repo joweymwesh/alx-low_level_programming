@@ -1,16 +1,15 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
 
 char *create_buffer(char *file);
 void close_file(int fd);
 
 /**
- * create_buffer - Allocates 1024 bytes for a buffer.
- * @file: The name of the file buffer is storing chars for.
+ * create_buffer - It allocates 1024 bytes for a buffer.
+ * @file: file name of the buffer storing chars for.
  *
- * Return: A pointer to the newly-allocated buffer.
+ * Return: pointer to the newly-allocated buffer.
  */
+
 char *create_buffer(char *file)
 {
 	char *buffer;
@@ -28,9 +27,10 @@ char *create_buffer(char *file)
 }
 
 /**
- * close_file - Closes file descriptors.
- * @fd: The file descriptor to be closed.
+ * close_file - Closes the file descriptors.
+ * @fd: file descriptor to be closed.
  */
+
 void close_file(int fd)
 {
 	int c;
@@ -46,8 +46,8 @@ void close_file(int fd)
 
 /**
  * main - Copies the contents of a file to another file.
- * @argc: The number of arguments supplied to the program.
- * @argv: An array of pointers to the arguments.
+ * @argc: number of arguments supplied to the program.
+ * @argv: array of pointers to the arguments.
  *
  * Return: 0 on success.
  *
@@ -56,6 +56,7 @@ void close_file(int fd)
  *              If file_to cannot be created or written to - exit code 99.
  *              If file_to or file_from cannot be closed - exit code 100.
  */
+
 int main(int argc, char *argv[])
 {
 	int from, to, r, w;
